@@ -1,0 +1,31 @@
+{
+  "name": "fieldmobileapi",
+  "version": "1.0.0",
+  "description": "field app api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sltossdevops@bitbucket.org/sltossdevops/fieldappapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/sltossdevops/fieldappapi/issues"
+  },
+  "homepage": "https://bitbucket.org/sltossdevops/fieldappapi#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "ldapjs": "^3.0.7",
+    "morgan": "^1.10.0",
+    "morgan-json": "^1.1.0",
+    "oracledb": "^6.3.0",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
